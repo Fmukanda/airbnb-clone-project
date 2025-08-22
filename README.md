@@ -4,16 +4,16 @@ Welcome to the **Airbnb Clone Project** repository! 🚀
 This project is a full-stack web application designed to clone the accommodation booking platform of AirBnB. 
 ***
 ## Frontend Requirement
-### Project Goal
+> ### Project Goal
 To develop a functional web application that allow user to:
  - Browse property listings
  - View detailed property information
  - Complete bookings
-### Tech Stack
+> ### Tech Stack
  - **Frontend:** HTML, CSS, JavaScript, and React
  - **Version Control:** Git and GitHub
  - **Design Tools:** Figma for UI/UX design
-### UI/UX Design Planning
+> ### UI/UX Design Planning
  1. **Design Goals**
      - Create intuitive booking flow
      - Maintain visual consistency
@@ -43,17 +43,17 @@ To develop a functional web application that allow user to:
       - Primary Font: Circular, Medium (500), 16px
       - Headings: Circular, Bold (700), 24px-32px
       - Secondary Text: Circular, Book (400), 14px
-### Project Roles and Responsibilities
-    |        Role        |          Responsibilities                                          |
-    |:------------------ | :------------------------------------------------------------------|
-    |Product Owner       | Defines requirements, prioritizes features, represents stakeholders|
-    |Designers           | Creates mockups, maintains design system, ensures UX quality       |
-    |Frontend Developers | Implements UI components, ensures responsive design                |
-    |Backend Developers  | Builds APIs, manages database, implements business logic           |
-    |QA/Testers          | Writes test cases, performs testing, reports bugs                  |
-    |DevOps Engineers    | Manages deployment, CI/CD pipeline, server infrastructure          |
+ > ### Project Roles and Responsibilities
+  |        Role        |          Responsibilities                                          |
+  |:------------------ | :------------------------------------------------------------------|
+  |Product Owner       | Defines requirements, prioritizes features, represents stakeholders|
+  |Designers           | Creates mockups, maintains design system, ensures UX quality       |
+  |Frontend Developers | Implements UI components, ensures responsive design                |
+  |Backend Developers  | Builds APIs, manages database, implements business logic           |
+  |QA/Testers          | Writes test cases, performs testing, reports bugs                  |
+  |DevOps Engineers    | Manages deployment, CI/CD pipeline, server infrastructure          |
 
-  ### UI Component Patterns 
+   > ### UI Component Patterns 
   1. **Navbar**
      - Logo
      - Search bar
@@ -70,4 +70,4 @@ To develop a functional web application that allow user to:
      - Social media links
      - Copyright information
    
-   **Note:** *Each component will be designed for reusability and consistency across the application.*
+    *Each component will be designed for reusability and consistency across the application.*
