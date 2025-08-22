@@ -71,16 +71,10 @@ To develop a functional web application that allow user to browse property listi
 
 ## Backend Project
 > ### Overview
-The project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. 
+This project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. 
 > ### Project Goal
-To build a scalable web application that is designed to clone the robust booking platform of Airbnb.
-> ### Tech Stack
- - Django
- - MySQL
- - GraphQL
- - Docker
- - GitHub Actions
- > ### Team Roles
+To build a scalable web application (using Django, PostgreSQL, and GraphQL) that is designed to clone the robust booking platform of Airbnb.
+> ### Team Roles
   |        Role             |          Responsibilities                                                 |
   |:------------------      | :-------------------------------------------------------------------------|
   |Project Manager          | Oversees timeline, coordinates team, manages deliverables                 |
@@ -89,3 +83,26 @@ To build a scalable web application that is designed to clone the robust booking
   |Backend Developers       | Builds APIs, manages database, implements business logic                  |
   |Test automation engineer | Designs a test automation ecosystem by writing and maintaing text scripts |
   |DevOps Engineers         | Manages deployment, CI/CD pipeline, server infrastructure                 |
+ > ### Technology Stack
+  - **Django:** a web framework for building RESTful APIs.
+  - **PostgreSQL:** a relation database management system.
+  - **GraphQL:** a query language and server-side runtime for APIs.
+ > ### Database Design
+  - **Users:** User Id, first name, last name, email address, Address
+  - **Bookings:** Booking Id, Property Id, Check in date, Check out date, number of guest
+  - **Reviews:** Review Id, Property Id, Booking Id, Rating, Reviewer Id  
+  - **Payments:** Payment Id, Amount, Currency, Payment Type, Payment Status
+    + **Entities Relationship**
+       + One user can have many properties
+       + One Reviewer can have many reviews
+       + One payment can belong to one booking
+       + One property can have many bookings
+ > ### Feature Breakdown
+  - **User Management:** This feature manage users accounts. It enables addition, allocation of roles, grouping, and removal of users from system.
+  - **Broperty management:** This feature manage the onboarding of properties to the system. It enables addition, tracking, and removal of properties from system.
+  - **Booking system:** This feature manage the onboarding of customers to the system. It enable customer to make reservation to the property.
+  - **Payment gateway:** This feature streamlined payment process through third party APIs. It links customer payments to property owner's bank account.
+ > ### API Security
+
+ > ### CI/CD Pipeline
+
