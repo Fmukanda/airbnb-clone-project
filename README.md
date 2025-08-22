@@ -4,7 +4,7 @@ Welcome to the **Airbnb Clone Project** repository! 🚀
 ## Frontend Project
 > ###  Overview
 This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project will cover frontend development, backend APIs, database design, and deployment.
-> ### Project Goal
+> ### Project Goal 
 To develop a functional web application that allow user to browse property listings, view detailed property information, and complete bookings.
 > ### Tech Stack
  - **Frontend:** HTML, CSS, JavaScript, and React
@@ -88,21 +88,33 @@ To build a scalable web application (using Django, PostgreSQL, and GraphQL) that
   - **PostgreSQL:** a relation database management system.
   - **GraphQL:** a query language and server-side runtime for APIs.
  > ### Database Design
+  **Key Entities and Fields**
   - **Users:** User Id, first name, last name, email address, Address
   - **Bookings:** Booking Id, Property Id, Check in date, Check out date, number of guest
   - **Reviews:** Review Id, Property Id, Booking Id, Rating, Reviewer Id  
   - **Payments:** Payment Id, Amount, Currency, Payment Type, Payment Status
-    + **Entities Relationship**
-       + One user can have many properties
-       + One Reviewer can have many reviews
-       + One payment can belong to one booking
-       + One property can have many bookings
+    
+  **Entities Relationship**
+   - One user can have many properties
+   - One Reviewer can have many reviews
+   - One payment can belong to one booking
+   - One property can have many bookings
+
  > ### Feature Breakdown
   - **User Management:** This feature manage users accounts. It enables addition, allocation of roles, grouping, and removal of users from system.
   - **Broperty management:** This feature manage the onboarding of properties to the system. It enables addition, tracking, and removal of properties from system.
   - **Booking system:** This feature manage the onboarding of customers to the system. It enable customer to make reservation to the property.
   - **Payment gateway:** This feature streamlined payment process through third party APIs. It links customer payments to property owner's bank account.
  > ### API Security
-
+  - **Authentication,:** .
+  - **Authorization:** .
+  - **Rate limiting:** a.
  > ### CI/CD Pipeline
+   CI/CD pipelines are the automated processes in software development, testing, and deployment. 
+   CI/CD pipelines are important in the software development cycle because it ensure continiues integration software features, faster deploymnet of application, flexibilty, and agility in software development.
+   The following CI/CD tools will be used in this project
+   + Docker
+   + GitHub Actions
+   + Jenkins
+   + Ansible
 
