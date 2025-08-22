@@ -1,14 +1,11 @@
 # airbnb-clone-project
-Welcome to the **Airbnb Clone Project** repository! 🚀
-
-This project is a full-stack web application designed to clone the accommodation booking platform of AirBnB. 
+Welcome to the **Airbnb Clone Project** repository! 🚀 
 ***
-## Frontend Requirement
+## Frontend Project
+> ###  Overview
+This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project will cover frontend development, backend APIs, database design, and deployment.
 > ### Project Goal
-To develop a functional web application that allow user to:
- - Browse property listings
- - View detailed property information
- - Complete bookings
+To develop a functional web application that allow user to browse property listings, view detailed property information, and complete bookings.
 > ### Tech Stack
  - **Frontend:** HTML, CSS, JavaScript, and React
  - **Version Control:** Git and GitHub
@@ -31,8 +28,8 @@ To develop a functional web application that allow user to:
     |Listing Detailed View| Complete property details with images and booking form |
     |Simple Checkout View | Streamlined payment and booking confirmation           |
   4. **User-Friendly Design**                                                                                                                                               
-      - *A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction.*
-      - *Clear navigation, intuitive interfaces, and responsive design are critical for success.*                 -      
+      - A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction.
+      - Clear navigation, intuitive interfaces, and responsive design are critical for success.                 -      
   5. **Color Styles**
      - Primary: #FF5A5F
      - Secondary: #008489
@@ -70,4 +67,16 @@ To develop a functional web application that allow user to:
      - Social media links
      - Copyright information
    
-    *Each component will be designed for reusability and consistency across the application.*
+    Each component will be designed for reusability and consistency across the application.
+
+## Backend Project
+> ### Overview
+The project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. 
+> ### Project Goal
+To build a scalable web application that is designed to clone the robust booking platform of Airbnb.
+> ### Tech Stack
+ - Django
+ - MySQL
+ - GraphQL
+ - Docker
+ - GitHub Actions
