@@ -80,3 +80,12 @@ To build a scalable web application that is designed to clone the robust booking
  - GraphQL
  - Docker
  - GitHub Actions
+ > ### Team Roles
+  |        Role             |          Responsibilities                                                 |
+  |:------------------      | :-------------------------------------------------------------------------|
+  |Project Manager          | Oversees timeline, coordinates team, manages deliverables                 |
+  |Software architect       | Design software architectures by implementing product vision              |
+  |Database Administrator   | Design, implements and maintains database systems                         |
+  |Backend Developers       | Builds APIs, manages database, implements business logic                  |
+  |Test automation engineer | Designs a test automation ecosystem by writing and maintaing text scripts |
+  |DevOps Engineers         | Manages deployment, CI/CD pipeline, server infrastructure                 |
