@@ -103,7 +103,7 @@ To build a scalable web application (using Django, PostgreSQL, and GraphQL) that
  > ### Feature Breakdown
   - **User Management:** This feature manage users accounts. It enables addition, allocation of roles, grouping, and removal of users from system.
   - **Broperty management:** This feature manage the onboarding of properties to the system. It enables addition, tracking, and removal of properties from system.
-  - **Booking system:** This feature manage the onboarding of customers to the system. It enable customer to make reservation to the property.
+  - **Booking system:** This feature manage the onboarding of customers to the system. It enable customer to search for propert and make reservation.
   - **Payment gateway:** This feature streamlined payment process through third party APIs. It links customer payments to property owner's bank account.
  > ### API Security
   - **Authentication,:** .
