@@ -112,7 +112,7 @@ To build a scalable web application (using Django, PostgreSQL, and GraphQL) that
 
     **Security is crucial in the following key areas:**
     -  **Protecting user data:** This ensure the privacy, integrity, and the right use of the user data are observed within the law guidelines and best practice framework.
-    -  **Securing payments:** This ensures that only aouthorized and approved payments are process. It protects fraudulent activities by unauthorized users.  
+    -  **Securing payments:** This ensures that only authorized and approved payments are process. It protects fraudulent activities by unauthorized users.  
  > ### CI/CD Pipeline
    CI/CD pipelines are the automated processes in software development, testing, and deployment. 
    CI/CD pipelines are important in the software development cycle because it ensure continiues integration software features, faster deploymnet of application, flexibilty, and agility in software development.
