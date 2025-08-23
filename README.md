@@ -106,7 +106,7 @@ To build a scalable web application (using Django, PostgreSQL, and GraphQL) that
   - **Booking system:** This feature manage the onboarding of customers to the system. It enable customer to search for propert and make reservation.
   - **Payment gateway:** This feature streamlined payment process through third party APIs. It links customer payments to property owner's bank account.
  > ### API Security
-  - **Authentication,:** Authentication validates the identity of the client through user name and password. This wil will achieved through Basic Auth and API Key Authentication.
+  - **Authentication,:** Authentication validates the identity of the client through user name and password. This wil be achieved through Basic Auth and API Key Authentication.
   - **Authorization:** Authorization determines the level of user access to system resources once they pass the authentication process. This will be achieved through assignement of user roles, permission, and rules.
   - **Rate limiting:** Rare limitiing are security policies and procedures within the property management system which will ensure the integrity of the business process. This will be achieved through impementing business rules within the application logic.
 
